@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto', sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://cdn01.vulcanpost.com/wp-uploads/2016/07/A-cup-of-coffee-coffee-beans-placed-heart-shaped-pattern_1920x1200.jpg");
+  background-position: center;
+  padding-left: 2%;
+  padding-right:8%;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  height:80px;
+  width:80px;
+  cursor:pointer;
+}
+.menu-icon{
+  width:30px;
+  cursor:pointer;
+  margin-left: 40px;
+}
+nav{
+  flex:1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+h1{
+  color: #fff;
+  font-size: 80px;
+}
+p{
+  color:#fff;
+  font-size: 15px;
+  line-height: 20px;
+}
+button{
+  width:180px;
+  color:#000;
+  font-size: 20px;
+  background: #fff;
+  border:0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  transition: transform 0.5s;
+}
+button:hover{
+  transform:translateY(-10px);
+}
+.card{
+  width:200px;
+  height:230px;
+  display:inline-block;
+  border-radius: 10px;
+  padding:15px 25px;
+  box-sizing:border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlo6hA8-9Ladf5_HIhrb86ApEEFsLP90mccA&usqp=CAU");
+}
+.card2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_fT1_2Kfo7VvMj7Os-47zGKNBrsn3wKU4QA&usqp=CAU");
+}
+.card3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxDU0y_qiFYUA0NDdsyzSMJWJvndkBewqJ6lgs2cWryaeEIQSeH-3-4fPHJWcqk-gJ-0&usqp=CAU");
+}
+.card4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDMdU4Spm9asuRUY1QWOfYxSYqyDVVJrXm4w&usqp=CAU");
+}
+.card:hover{
+  transform:translateY(-10px);
+}
+footer{
+  width: 100%;
+  position:absolute;
+  background:linear-gradient(to right,#00093c,#2d0b00);
+  text-align: center;
+  font-size: 10px;
+}
+.coffeelogo{
+  height:80px;
+  width:80px
+  padding:10px;
+}
+
+.Foot nav{
+  text-align: center;
+  text-decoration: none;
+  padding-top: 100px;
+}
